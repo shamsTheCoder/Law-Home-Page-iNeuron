@@ -58,6 +58,10 @@ nav img[alt="logo"] {
     display: inline-block;
 }
 
+nav img[alt="logo"]:hover {
+    cursor: pointer;
+}
+
 .hero-header {
     display: flex;
     flex-direction: row;
@@ -105,14 +109,16 @@ footer .bx {
     color: #ffffff;
 }
 
-footer .slide-button-left, .slide-button-right {
+footer .slide-button-left,
+.slide-button-right {
     display: inline-flex;
     float: right;
     background-color: #39372d;
     padding: 7px 9px;
 }
 
-footer .slide-button-right:hover, .slide-button-left:hover{
+footer .slide-button-right:hover,
+.slide-button-left:hover {
     background-color: #a08f36;
     cursor: pointer;
 }
